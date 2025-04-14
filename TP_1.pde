@@ -70,3 +70,12 @@ void draw() {
   ellipse(370, 420, 30, 30);
   ellipse(390, 420, 30, 30);
 }
+PImage img;
+void setup(){
+size(800,400);
+img = loadImage("Gatito lindo");
+}
+
+void draw(){
+background(R,G,B);
+image(img,0,0,400,400);
